@@ -1,0 +1,31 @@
+.sidebar__iconContainer {
+  display: flex;
+  padding: 12px;
+  margin: 5px;
+  align-items: center;
+  border-radius: 10px;
+}
+.sidebar__icon {
+  font-size: 30px !important;
+  color: white;
+  background-color: #444546;
+  border-radius: 50px;
+}
+
+.sidebar__iconImage {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.sidebar__iconName {
+  color: #e4e6eb;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+.sidebar__iconContainer:hover {
+  background-color: #303031;
+}

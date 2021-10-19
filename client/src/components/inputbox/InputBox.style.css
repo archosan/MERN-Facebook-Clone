@@ -1,0 +1,148 @@
+.inputbox__body {
+  display: flex;
+  flex-direction: column;
+  background-color: #242526;
+  padding: 12px 16px 10px;
+  border-radius: 15px;
+}
+
+.inputbox__top {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px 0px;
+}
+.inputbox__icon {
+  display: flex;
+  align-items: center;
+  padding: 6px 5px;
+  border-radius: 50% !important;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.MuiAvatar-root {
+  border-radius: 50% !important;
+}
+.css-1pqm26d-MuiAvatar-img {
+  border-radius: 50%;
+}
+.inputbox__image {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.inputbox__inputContainer {
+  display: flex;
+  flex: 1;
+  padding: 8px 12px;
+  background-color: #3a3b3c;
+  border-radius: 25px;
+}
+.inputbox__input {
+  background-color: transparent;
+  color: #b0b3b8;
+  font-size: 17px;
+  border: none;
+  display: flex;
+  flex: 1;
+  outline-width: 0;
+}
+.inputbox__inputContainer button {
+  display: none;
+}
+.shareImgContainer {
+  position: relative;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shareImg {
+  width: 100%;
+  object-fit: cover;
+}
+.shareCancelImg {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.inputbox__bottom {
+  display: flex;
+  flex: 1;
+  margin: 12px 0 0;
+  padding: 8px 0 5px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+.inputbox__bottomleft {
+  display: flex;
+  flex: 0.33;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bottomleft_videoIcon {
+  font-size: 25px !important;
+  color: #f23e5c;
+  margin-right: 5px;
+}
+.inputbox__bottomleft > p {
+  color: #b0b3b8;
+  font-size: 15px;
+  font-weight: 600;
+}
+.inputbox__bottomcenter {
+  display: flex;
+  flex: 0.33;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bottomcenter_photoIcon {
+  font-size: 25px !important;
+  color: #58c472;
+  margin-right: 5px;
+}
+.inputbox__bottomcenter > p {
+  color: #b0b3b8;
+  font-size: 15px;
+  font-weight: 600;
+}
+.inputbox__bottomright {
+  display: flex;
+  flex: 0.33;
+  align-items: center;
+  padding: 8px;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bottomright_activityIcon {
+  font-size: 25px !important;
+  color: #f8c03e;
+  margin-right: 5px;
+}
+.inputbox__bottomright > p {
+  color: #b0b3b8;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.inputbox__bottomright:hover,
+.inputbox__bottomcenter:hover,
+.inputbox__bottomleft:hover {
+  background-color: #3a3b3c;
+}
+/* 
+.inputbox__bottomleft:hover {
+  background-color: #3a3b3c;
+} */

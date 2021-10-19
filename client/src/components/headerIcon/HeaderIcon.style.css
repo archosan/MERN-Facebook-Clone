@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-self: center;
+  width: 100px;
+  justify-content: center;
+  padding: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container__icon {
+  color: lightgray !important;
+  font-size: 30px !important;
+}
+
+.container:hover {
+  background-color: #3a3b3c;
+  border-bottom-style: solid;
+  border-bottom-color: #2d88ff;
+}
+
+.container:hover .container__icon {
+  color: #2d88ff !important;
+}
+
+.container__active {
+  border-bottom-style: solid;
+  border-bottom-color: #2d88ff;
+}
+.active {
+  color: #2d88ff !important;
+}

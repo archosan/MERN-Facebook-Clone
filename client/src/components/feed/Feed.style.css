@@ -1,0 +1,14 @@
+.feed__container {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  padding: 0px 150px;
+  align-items: center;
+  overflow-y: scroll;
+}
+.feed__body {
+  
+}
+::-webkit-scrollbar {
+  display: none;
+}

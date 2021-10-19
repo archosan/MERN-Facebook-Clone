@@ -1,0 +1,32 @@
+.onlineUser__container {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.onlineUser__left {
+  position: relative;
+}
+.onlineUser__profilePic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.onlineUser__status {
+  background-color: limegreen;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 5px;
+}
+.onlineUser__name {
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 15px;
+}
+.onlineUser__container:hover {
+  background-color: #303031;
+}
